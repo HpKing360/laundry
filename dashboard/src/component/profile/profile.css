@@ -1,0 +1,34 @@
+.admin-profile {
+  display: block !important;
+  width: 50%;
+  margin: 0 auto;
+}
+.admin-profile.profile-items .left .card {
+  border: 0 !important;
+}
+.admin-profile ul li {
+  border: 0;
+  text-align: center;
+}
+.profile-items img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.profile-items .left,
+.profile-items .right {
+  border: 1px solid #ced4da;
+  text-align: center;
+  padding: 30px 30px;
+}
+.profile-items .left ul {
+  text-align: left;
+}
+.profile-items .left ul b {
+  margin-right: 5px;
+}
+.profile-items .right a {
+  display: inline-block;
+  margin: 10px 0;
+}

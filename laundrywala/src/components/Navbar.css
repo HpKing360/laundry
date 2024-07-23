@@ -1,0 +1,97 @@
+/* Navbar.css */
+
+.navbar-container {
+  width: 100%;
+}
+
+.navbar-header {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  padding: 1rem 2vw;
+  background: linear-gradient(89.2deg, rgb(191, 241, 236) 22.3%, rgb(109, 192, 236) 84.1%);
+  border-bottom: none; /* Ensure no border at the bottom */
+}
+
+.navbar-logo {
+  max-width: 150px;
+  height: auto;
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  background: #333;
+  display: block;
+  width: 2rem;
+  height: 2px;
+  margin: 0.5rem 0;
+  outline: none;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-item {
+  margin: 0.5rem 1vw;
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: black; /* Black color for the links */
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: white; /* White on hover */
+}
+
+.nav-link:active, .nav-link:focus {
+  background: linear-gradient(89.2deg, rgb(191, 241, 236) 22.3%, rgb(109, 192, 236) 84.1%); /* Gradient on click */
+}
+
+.nav-link i {
+  margin-right: 0.5rem;
+  color: black; /* Black color for icons */
+  transition: color 0.3s;
+}
+
+.nav-link:hover i {
+  color: white; /* White for icons on hover */
+}
+
+.nav-link:active i, .nav-link:focus i {
+  color: #fff; /* White color for icons on click */
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+}
+
+/* Add this new rule to ensure no black lines after the navbar */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+  outline: none;
+}

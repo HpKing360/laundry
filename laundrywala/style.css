@@ -1,0 +1,38 @@
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-radius:0.6rem;
+}
+
+header{
+    padding: 10px;
+    margin-top: 10px;
+    height: 70px;
+    
+    /* enable scrolling */
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 2 rem;
+    font-family: 'Handlee', cursive;
+
+}
+
+ul li {
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+
+}
+
+ .nav-link:hover{
+  background:#635C5B;
+  transform: scale(1.1);
+border-radius: 3rem;
+ }
+
+ 

@@ -1,0 +1,40 @@
+/* Map.css */
+
+/* Style for the container */
+#google_map {
+    text-align: center;
+  }
+  
+  /* Style for the title */
+  .head-title {
+    margin-bottom: 30px;
+  }
+  
+  /* Style for the cards */
+  .laundry-card {
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+  }
+  
+  .laundry-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Style for the location text */
+  .location {
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+  
+  /* Style for the link */
+  .laundry-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .laundry-link:hover {
+    text-decoration: underline;
+  }
+  
